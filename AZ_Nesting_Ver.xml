@@ -1,6 +1,6 @@
 <AppVersion>
   <Version>1.3</Version>
   <Url>https://warehouse.tekla.com/#/catalog/details/0c9619ee-255a-4a8a-a39b-d5894a4e38d7</Url>
-  <Mandatory>true</Mandatory>
+  <Mandatory>false</Mandatory>
 
 </AppVersion>

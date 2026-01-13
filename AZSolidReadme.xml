@@ -1,5 +1,24 @@
-<AZSolid>
-    <Licenses>
-        <License Key="AZTC-QVpUQ-3xBTl-l8RTc-4RjU3-QzVEN-zJCRT-AwM3w-xfDEu-MHwzM-DQ3RD-U1Nzc-0MzFB-NTFF" User="Ahmed Saleh" Expiry="Never" HWID="E78F57C5D72BE003" />
-    </Licenses>
-</AZSolid>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  AZ Tekla Solid Link - License Whitelist
+  URL: https://raw.githubusercontent.com/ahmedzietoon/AZ_Apps_Versions/main/AZSolidReadme.xml
+  
+  Instructions:
+  1. Add a <License> entry for each valid customer.
+  2. Key = The full AZSL-xxxx license key (required)
+  3. User = Customer name (optional, for reference)
+  4. HWID = Customer's Hardware ID (REQUIRED for security - prevents key sharing)
+  5. Expiry = Expiration date YYYY-MM-DD (optional, for time-limited licenses)
+  
+  Security Note: Always include HWID. Without it, any user can copy the key.
+-->
+<Licenses>
+  <!-- Example 1: Perpetual License (HWID-bound, no expiry) -->
+  <License Key="AZSL-QVpTT-HxBTl-l8RTc-4RjU3-QzVEN-zJCRT-AwM3w-xfDEu-MHw0N-TFBNU-JEOTI-zNUMy-MTAy" User="Ahmed Saleh" HWID="E78F57C5D72BE003" />
+  
+  <!-- Example 2: Time-Limited License (Expires on specific date) -->
+  <License Key="AZSL-AnotherKeyHere" User="Jane Smith" HWID="XYZ98765MNOP4321" Expiry="2025-12-31" />
+  
+  <!-- Add more licenses below... -->
+  
+</Licenses>
